@@ -1,0 +1,13 @@
+services:
+  myapp:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+    - 3001:3001
+  tests:
+    build:
+      context: .
+      dockerfile: Test.Dockerfile
+    volumes:
+    - ./mounted:/app/output

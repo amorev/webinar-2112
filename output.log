@@ -1,0 +1,39 @@
+Attaching to docker_tests_1
+[36mtests_1  |[0m 
+[36mtests_1  |[0m > docker@1.0.1 test /app
+[36mtests_1  |[0m > ava
+[36mtests_1  |[0m 
+[36mtests_1  |[0m 
+[36mtests_1  |[0m   ? test hello world 
+[36mtests_1  |[0m   ?
+[36mtests_1  |[0m 
+[36mtests_1  |[0m   test hello world
+[36mtests_1  |[0m 
+[36mtests_1  |[0m   index.test.js:3
+[36mtests_1  |[0m 
+[36mtests_1  |[0m    2: test.serial('test hello world', async t => {
+[36mtests_1  |[0m    3:   t.is('me', 'string')                      
+[36mtests_1  |[0m    4: })                                          
+[36mtests_1  |[0m 
+[36mtests_1  |[0m   Difference:
+[36mtests_1  |[0m 
+[36mtests_1  |[0m   - 'me'
+[36mtests_1  |[0m   + 'string'
+[36mtests_1  |[0m 
+[36mtests_1  |[0m   › index.test.js:3:5
+[36mtests_1  |[0m 
+[36mtests_1  |[0m   ?
+[36mtests_1  |[0m 
+[36mtests_1  |[0m   1 test failed
+[36mtests_1  |[0m npm ERR! code ELIFECYCLE
+[36mtests_1  |[0m npm ERR! errno 1
+[36mtests_1  |[0m npm ERR! docker@1.0.1 test: `ava`
+[36mtests_1  |[0m npm ERR! Exit status 1
+[36mtests_1  |[0m npm ERR! 
+[36mtests_1  |[0m npm ERR! Failed at the docker@1.0.1 test script.
+[36mtests_1  |[0m npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+[36mtests_1  |[0m 
+[36mtests_1  |[0m npm ERR! A complete log of this run can be found in:
+[36mtests_1  |[0m npm ERR!     /root/.npm/_logs/2020-12-21T18_29_26_034Z-debug.log
+[36mdocker_tests_1 exited with code 1
+[0m
