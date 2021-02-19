@@ -11,3 +11,5 @@ services:
       dockerfile: Test.Dockerfile
     volumes:
     - ./mounted:/app/output
+  nginx:
+    image: nginx
